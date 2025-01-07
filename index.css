@@ -1,0 +1,20 @@
+div[class^="child"] {
+    padding: 0 10px;
+}
+
+.parent {
+    border: 2px solid #606c38;
+    margin: 20px 0;
+}
+
+.child, .child3, .child5, .child7 {
+    background-color: #bc6c25;
+    border: 1px solid #894e19;
+    display: flex-end;
+
+}
+
+.child2, .child4, .child6, .child8 {
+    background-color: #dda15e;
+    border: 1px solid #966b3a;
+}
