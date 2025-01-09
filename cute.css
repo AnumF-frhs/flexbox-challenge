@@ -1,11 +1,11 @@
 /* 1. Replace the ?????? with the correct selector */
-div[class^="?????"] {
+div[class^="color"] {
     display: flex;
     width: 500px;
     margin: auto;
 }
 
-div[class^="??????"] > ????? {
+div[class^="color"] > *{
     border-radius: 50px;
     height: 50px;
     width: 50px;
@@ -15,28 +15,30 @@ div[class^="??????"] > ????? {
 /* 2. Create two styles for the flex styles.
 One will make a circle, the other the long pill shape */
 
-
-
+.small {
+flex: 0 1 auto;
+}
+.big {
+flex: 1 1 auto;
+}
 /* 3. Replace the ?????? with the correct selector */
-color1 > * {
+.color1 > * {
     background-color:#264653;
-    display: center;
+    
 }
-color2 > * {
+.color2 > * {
     background-color:#2a9d8f;
-    display: center;
-    display: row-reverse;
+   
 }
-color3 > * {
+.color3 > * {
     background-color:#e9c46a;
-    display: center;
+    
 }
-color4 > * {
+.color4 > * {
     background-color:#f4a261;
-    display: center;
-    display: row-reverse; 
+   
 }
-color5 > * {
+.color5 > * {
     background-color:#e76f51;
-    display: center;
+   
 }

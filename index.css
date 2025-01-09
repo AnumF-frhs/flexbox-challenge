@@ -5,16 +5,34 @@ div[class^="child"] {
 .parent {
     border: 2px solid #606c38;
     margin: 20px 0;
+    display: flex;
 }
 
 .child, .child3, .child5, .child7 {
     background-color: #bc6c25;
     border: 1px solid #894e19;
-    display: flex-end;
 
+}
+.child, .child2 {
+    flex: 0 1 auto;
+}
+
+.child3, .child4 {
+    flex: 1 1 auto;
+}
+
+.child5, .child8 {
+    flex: 2 1 auto;
+}
+
+.child6, .child7 {
+    flex: 1 1 auto;
 }
 
 .child2, .child4, .child6, .child8 {
     background-color: #dda15e;
     border: 1px solid #966b3a;
 }
+
+
+
